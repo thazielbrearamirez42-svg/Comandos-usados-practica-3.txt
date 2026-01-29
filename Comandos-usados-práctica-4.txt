@@ -1,0 +1,31 @@
+cd Desktop
+  178  mkdir materia
+  179  ls
+  180  cd materia
+  181  touch estudiante.txt
+  182  vi estudiante.txt
+  183  cat estudiante.txt
+  184  tac estudiante.txt
+  185  su
+  232  chmod 700 estudiante.txt
+  233  ls -l
+  234  chmod 000 estudiante.txt
+  235  chmod g+rwx estudiante.txt
+  236  ls -l
+  237  chmod u+rwx estudiante.txt
+  238  ls -l
+  239  cd ..
+  240  mkdir materia2
+  241  ls
+  242  cd materia2
+  243  cp materia/estudiante.txt materia2
+  244  cd ..
+  245  cp materia/estudiante.txt materia2
+  246  cd materia2
+  247  ls
+  248  cat estudiate.txt
+  249  cat estudiante.txt
+  250  cd ..
+  251  rm -r materia
+  252  ls
+  253  cd ..
