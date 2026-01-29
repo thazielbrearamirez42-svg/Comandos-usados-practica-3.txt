@@ -1,0 +1,40 @@
+126  adduser  Thaziel
+  127  passwd  Thaziel
+  128  sudo visudo
+  129  su -  Thaziel
+  130  sudo visudo
+  131  clear
+  132  userdel -r  Thaziel
+  133  su -  Thaziel
+  134  clear
+  135  exit
+  136  sudo visudo
+  137  exit
+  138  exit
+  139  exit
+  140  adduser Thaziel
+  141  passwd Thaziel
+  142  sudo visudo
+  143  su -  Thaziel
+  144  clear
+  145  exit
+  146  userdel -r  Thaziel
+  147  exit
+  148  sudo visudo
+  149  exit
+  150  adduser  Thaziel
+  151  passwd  Thaziel
+  152  sudo visudo
+  153  su -  Thaziel
+  154  adduser Joselin
+  155  groupadd guest
+  156  usermod -aG guest Joselin
+  157  cat /etc/group
+  158  clear
+  159  cat /etc/group | grep guest
+  160  userdel Joselin
+  161  groupdel guest
+  162  cat /etc/group
+  163  clear
+  164  exit
+  165  
